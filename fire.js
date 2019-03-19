@@ -236,3 +236,13 @@ container.filters = [filter];
 app.ticker.add(function(delta) {
     filter.uniforms.iTime += 0.03;
 });
+
+
+
+/*
+
+взял шейдер с    https://www.shadertoy.com/view/MlKSWm
+потребовал некоторой адаптации, добавил проброс iMouse, добавил uniform-ы в сам шейдер,
+добавил функцию main
+
+*/
